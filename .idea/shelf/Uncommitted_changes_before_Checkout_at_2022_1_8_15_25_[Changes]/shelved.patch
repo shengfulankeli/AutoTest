@@ -1,0 +1,1218 @@
+Index: Chapter11/Chapter11.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule=\"true\" type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"FacetManager\">\r\n    <facet type=\"web\" name=\"Web\">\r\n      <configuration>\r\n        <webroots />\r\n        <sourceRoots>\r\n          <root url=\"file://$MODULE_DIR$/src/main/java\" />\r\n          <root url=\"file://$MODULE_DIR$/src/main/resources\" />\r\n        </sourceRoots>\r\n      </configuration>\r\n    </facet>\r\n    <facet type=\"Spring\" name=\"Spring\">\r\n      <configuration />\r\n    </facet>\r\n  </component>\r\n  <component name=\"NewModuleRootManager\" LANGUAGE_LEVEL=\"JDK_1_8\">\r\n    <output url=\"file://$MODULE_DIR$/target/classes\" />\r\n    <output-test url=\"file://$MODULE_DIR$/target/test-classes\" />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/main/java\" isTestSource=\"false\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/main/resources\" type=\"java-resource\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/test/java\" isTestSource=\"true\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/target\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.boot:spring-boot-starter-web:2.0.0.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.boot:spring-boot-starter:2.0.0.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.boot:spring-boot:2.0.0.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.0.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.boot:spring-boot-starter-logging:2.0.0.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: ch.qos.logback:logback-classic:1.2.3\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: ch.qos.logback:logback-core:1.2.3\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.logging.log4j:log4j-to-slf4j:2.10.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.logging.log4j:log4j-api:2.10.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.slf4j:jul-to-slf4j:1.7.25\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: javax.annotation:javax.annotation-api:1.3.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-core:5.0.4.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-jcl:5.0.4.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"RUNTIME\" name=\"Maven: org.yaml:snakeyaml:1.19\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.boot:spring-boot-starter-json:2.0.0.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.fasterxml.jackson.core:jackson-databind:2.9.4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.fasterxml.jackson.core:jackson-core:2.9.4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.boot:spring-boot-starter-tomcat:2.0.0.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.28\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.tomcat.embed:tomcat-embed-el:8.5.28\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.28\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.hibernate.validator:hibernate-validator:6.0.7.Final\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: javax.validation:validation-api:2.0.1.Final\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.jboss.logging:jboss-logging:3.3.2.Final\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-web:5.0.4.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-beans:5.0.4.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-webmvc:5.0.4.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-aop:5.0.4.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-context:5.0.4.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-expression:5.0.4.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.springfox:springfox-swagger-ui:2.6.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.springfox:springfox-spring-web:2.6.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.springfox:springfox-swagger2:2.6.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.swagger:swagger-annotations:1.5.10\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.swagger:swagger-models:1.5.10\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.springfox:springfox-spi:2.6.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.springfox:springfox-core:2.6.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.springfox:springfox-schema:2.6.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.springfox:springfox-swagger-common:2.6.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.google.guava:guava:18.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.fasterxml:classmate:1.3.4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.slf4j:slf4j-api:1.7.25\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.plugin:spring-plugin-core:1.2.0.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.plugin:spring-plugin-metadata:1.2.0.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.mapstruct:mapstruct:1.0.0.Final\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.projectlombok:lombok:1.16.14\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.alibaba:fastjson:1.2.38\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: mysql:mysql-connector-java:5.1.45\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.mybatis.spring.boot:mybatis-spring-boot-starter:1.3.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.boot:spring-boot-starter-jdbc:2.0.0.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.zaxxer:HikariCP:2.7.8\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-jdbc:5.0.4.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-tx:5.0.4.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:1.3.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.mybatis:mybatis:3.4.4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.mybatis:mybatis-spring:1.3.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.testng:testng:6.10\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.beust:jcommander:1.48\" level=\"project\" />\r\n  </component>\r\n</module>
+===================================================================
+diff --git a/Chapter11/Chapter11.iml b/Chapter11/Chapter11.iml
+--- a/Chapter11/Chapter11.iml	
++++ b/Chapter11/Chapter11.iml	
+@@ -74,18 +74,51 @@
+     <orderEntry type="library" name="Maven: org.springframework.plugin:spring-plugin-core:1.2.0.RELEASE" level="project" />
+     <orderEntry type="library" name="Maven: org.springframework.plugin:spring-plugin-metadata:1.2.0.RELEASE" level="project" />
+     <orderEntry type="library" name="Maven: org.mapstruct:mapstruct:1.0.0.Final" level="project" />
+-    <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.14" level="project" />
++    <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.10" level="project" />
+     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.38" level="project" />
+-    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.45" level="project" />
++    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.46" level="project" />
+     <orderEntry type="library" name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-starter:1.3.0" level="project" />
+     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-jdbc:2.0.0.RELEASE" level="project" />
+     <orderEntry type="library" name="Maven: com.zaxxer:HikariCP:2.7.8" level="project" />
+     <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:5.0.4.RELEASE" level="project" />
+     <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.0.4.RELEASE" level="project" />
+     <orderEntry type="library" name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:1.3.0" level="project" />
+-    <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.4.4" level="project" />
+     <orderEntry type="library" name="Maven: org.mybatis:mybatis-spring:1.3.1" level="project" />
++    <orderEntry type="library" name="Maven: log4j:log4j:1.2.16" level="project" />
+     <orderEntry type="library" name="Maven: org.testng:testng:6.10" level="project" />
+     <orderEntry type="library" name="Maven: com.beust:jcommander:1.48" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven.plugins:maven-compiler-plugin:3.8.1" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-plugin-api:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-model:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.sisu:sisu-inject-plexus:1.4.2" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.sisu:sisu-inject-bean:1.4.2" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.sisu:sisu-guice:noaop:2.1.7" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-artifact:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-utils:2.0.4" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-core:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-settings:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-settings-builder:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-repository-metadata:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-model-builder:3.0" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.maven:maven-aether-provider:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.aether:aether-impl:1.7" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.aether:aether-spi:1.7" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.aether:aether-api:1.7" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.aether:aether-util:1.7" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-interpolation:1.14" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-classworlds:2.2.3" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-component-annotations:1.5.5" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.plexus:plexus-sec-dispatcher:1.3" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.plexus:plexus-cipher:1.4" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven.shared:maven-shared-utils:3.2.1" level="project" />
++    <orderEntry type="library" name="Maven: commons-io:commons-io:2.5" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven.shared:maven-shared-incremental:1.1" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-java:0.9.10" level="project" />
++    <orderEntry type="library" name="Maven: org.ow2.asm:asm:6.2" level="project" />
++    <orderEntry type="library" name="Maven: com.thoughtworks.qdox:qdox:2.0-M8" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-compiler-api:2.8.4" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-compiler-manager:2.8.4" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.plexus:plexus-compiler-javac:2.8.4" level="project" />
++    <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.4.4" level="project" />
+   </component>
+ </module>
+\ No newline at end of file
+Index: Chapter9/Chapter9.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule=\"true\" type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" LANGUAGE_LEVEL=\"JDK_1_8\">\r\n    <output url=\"file://$MODULE_DIR$/target/classes\" />\r\n    <output-test url=\"file://$MODULE_DIR$/target/test-classes\" />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/main/java\" isTestSource=\"false\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/main/resources\" type=\"java-resource\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/test/java\" isTestSource=\"true\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/target\" />\r\n    </content>\r\n    <orderEntry type=\"jdk\" jdkName=\"1.8 (2)\" jdkType=\"JavaSDK\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n    <orderEntry type=\"library\" name=\"Maven: commons-logging:commons-logging:1.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.httpcomponents:httpclient:4.5.5\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.httpcomponents:httpcore:4.4.9\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: commons-codec:commons-codec:1.11\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.json:json:20170516\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.alibaba:fastjson:1.2.38\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.testng:testng:6.10\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.beust:jcommander:1.48\" level=\"project\" />\r\n  </component>\r\n</module>
+===================================================================
+diff --git a/Chapter9/Chapter9.iml b/Chapter9/Chapter9.iml
+--- a/Chapter9/Chapter9.iml	
++++ b/Chapter9/Chapter9.iml	
+@@ -19,5 +19,40 @@
+     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.38" level="project" />
+     <orderEntry type="library" name="Maven: org.testng:testng:6.10" level="project" />
+     <orderEntry type="library" name="Maven: com.beust:jcommander:1.48" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven.plugins:maven-compiler-plugin:3.8.1" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-plugin-api:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-model:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.sisu:sisu-inject-plexus:1.4.2" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.sisu:sisu-inject-bean:1.4.2" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.sisu:sisu-guice:noaop:2.1.7" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-artifact:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-utils:2.0.4" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-core:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-settings:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-settings-builder:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-repository-metadata:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-model-builder:3.0" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.maven:maven-aether-provider:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.aether:aether-impl:1.7" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.aether:aether-spi:1.7" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.aether:aether-api:1.7" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.aether:aether-util:1.7" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-interpolation:1.14" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-classworlds:2.2.3" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-component-annotations:1.5.5" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.plexus:plexus-sec-dispatcher:1.3" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.plexus:plexus-cipher:1.4" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven.shared:maven-shared-utils:3.2.1" level="project" />
++    <orderEntry type="library" name="Maven: commons-io:commons-io:2.5" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven.shared:maven-shared-incremental:1.1" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-java:0.9.10" level="project" />
++    <orderEntry type="library" name="Maven: org.ow2.asm:asm:6.2" level="project" />
++    <orderEntry type="library" name="Maven: com.thoughtworks.qdox:qdox:2.0-M8" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-compiler-api:2.8.4" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-compiler-manager:2.8.4" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.plexus:plexus-compiler-javac:2.8.4" level="project" />
++    <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.4.4" level="project" />
++    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.6" level="project" />
++    <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.14" level="project" />
+   </component>
+ </module>
+\ No newline at end of file
+Index: Chapter10/Chapter10.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule=\"true\" type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"FacetManager\">\r\n    <facet type=\"web\" name=\"Web\">\r\n      <configuration>\r\n        <webroots />\r\n        <sourceRoots>\r\n          <root url=\"file://$MODULE_DIR$/src/main/java\" />\r\n          <root url=\"file://$MODULE_DIR$/src/main/resources\" />\r\n        </sourceRoots>\r\n      </configuration>\r\n    </facet>\r\n    <facet type=\"Spring\" name=\"Spring\">\r\n      <configuration />\r\n    </facet>\r\n  </component>\r\n  <component name=\"NewModuleRootManager\" LANGUAGE_LEVEL=\"JDK_1_8\">\r\n    <output url=\"file://$MODULE_DIR$/target/classes\" />\r\n    <output-test url=\"file://$MODULE_DIR$/target/test-classes\" />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/main/java\" isTestSource=\"false\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/main/resources\" type=\"java-resource\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/test/java\" isTestSource=\"true\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/target\" />\r\n    </content>\r\n    <orderEntry type=\"jdk\" jdkName=\"1.8 (2)\" jdkType=\"JavaSDK\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.boot:spring-boot-starter-web:2.0.0.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.boot:spring-boot-starter:2.0.0.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.boot:spring-boot:2.0.0.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.0.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.boot:spring-boot-starter-logging:2.0.0.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: ch.qos.logback:logback-classic:1.2.3\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: ch.qos.logback:logback-core:1.2.3\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.logging.log4j:log4j-to-slf4j:2.10.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.logging.log4j:log4j-api:2.10.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.slf4j:jul-to-slf4j:1.7.25\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: javax.annotation:javax.annotation-api:1.3.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-core:5.0.4.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-jcl:5.0.4.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"RUNTIME\" name=\"Maven: org.yaml:snakeyaml:1.19\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.boot:spring-boot-starter-json:2.0.0.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.fasterxml.jackson.core:jackson-databind:2.9.4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.fasterxml.jackson.core:jackson-core:2.9.4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.boot:spring-boot-starter-tomcat:2.0.0.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.28\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.tomcat.embed:tomcat-embed-el:8.5.28\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.28\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.hibernate.validator:hibernate-validator:6.0.7.Final\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: javax.validation:validation-api:2.0.1.Final\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.jboss.logging:jboss-logging:3.3.2.Final\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-web:5.0.4.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-beans:5.0.4.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-webmvc:5.0.4.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-aop:5.0.4.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-context:5.0.4.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-expression:5.0.4.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.springfox:springfox-swagger2:2.6.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.swagger:swagger-annotations:1.5.10\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.swagger:swagger-models:1.5.10\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.springfox:springfox-spi:2.6.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.springfox:springfox-core:2.6.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.springfox:springfox-schema:2.6.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.springfox:springfox-swagger-common:2.6.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.springfox:springfox-spring-web:2.6.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.google.guava:guava:18.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.fasterxml:classmate:1.3.4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.slf4j:slf4j-api:1.7.25\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.plugin:spring-plugin-core:1.2.0.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.plugin:spring-plugin-metadata:1.2.0.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.mapstruct:mapstruct:1.0.0.Final\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.springfox:springfox-swagger-ui:2.6.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.projectlombok:lombok:1.16.14\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.testng:testng:6.10\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.beust:jcommander:1.48\" level=\"project\" />\r\n  </component>\r\n</module>
+===================================================================
+diff --git a/Chapter10/Chapter10.iml b/Chapter10/Chapter10.iml
+--- a/Chapter10/Chapter10.iml	
++++ b/Chapter10/Chapter10.iml	
+@@ -77,5 +77,39 @@
+     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.14" level="project" />
+     <orderEntry type="library" name="Maven: org.testng:testng:6.10" level="project" />
+     <orderEntry type="library" name="Maven: com.beust:jcommander:1.48" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven.plugins:maven-compiler-plugin:3.8.1" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-plugin-api:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-model:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.sisu:sisu-inject-plexus:1.4.2" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.sisu:sisu-inject-bean:1.4.2" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.sisu:sisu-guice:noaop:2.1.7" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-artifact:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-utils:2.0.4" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-core:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-settings:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-settings-builder:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-repository-metadata:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-model-builder:3.0" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.maven:maven-aether-provider:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.aether:aether-impl:1.7" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.aether:aether-spi:1.7" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.aether:aether-api:1.7" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.aether:aether-util:1.7" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-interpolation:1.14" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-classworlds:2.2.3" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-component-annotations:1.5.5" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.plexus:plexus-sec-dispatcher:1.3" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.plexus:plexus-cipher:1.4" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven.shared:maven-shared-utils:3.2.1" level="project" />
++    <orderEntry type="library" name="Maven: commons-io:commons-io:2.5" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven.shared:maven-shared-incremental:1.1" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-java:0.9.10" level="project" />
++    <orderEntry type="library" name="Maven: org.ow2.asm:asm:6.2" level="project" />
++    <orderEntry type="library" name="Maven: com.thoughtworks.qdox:qdox:2.0-M8" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-compiler-api:2.8.4" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-compiler-manager:2.8.4" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.plexus:plexus-compiler-javac:2.8.4" level="project" />
++    <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.4.4" level="project" />
++    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.6" level="project" />
+   </component>
+ </module>
+\ No newline at end of file
+Index: .idea/libraries/Maven__mysql_mysql_connector_java_5_1_45.xml
+===================================================================
+diff --git a/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_45.xml b/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml
+rename from .idea/libraries/Maven__mysql_mysql_connector_java_5_1_45.xml
+rename to .idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml
+--- a/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_45.xml	
++++ b/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml	
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+-  <library name="Maven: mysql:mysql-connector-java:5.1.45">
++  <library name="Maven: com.google.protobuf:protobuf-java:2.6.0">
+     <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../../../../../LocalRepository/mysql/mysql-connector-java/5.1.45/mysql-connector-java-5.1.45.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../../../LocalRepository/com/google/protobuf/protobuf-java/2.6.0/protobuf-java-2.6.0.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../../../../../LocalRepository/mysql/mysql-connector-java/5.1.45/mysql-connector-java-5.1.45-javadoc.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../../../LocalRepository/com/google/protobuf/protobuf-java/2.6.0/protobuf-java-2.6.0-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../../../../../LocalRepository/mysql/mysql-connector-java/5.1.45/mysql-connector-java-5.1.45-sources.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../../../../../LocalRepository/com/google/protobuf/protobuf-java/2.6.0/protobuf-java-2.6.0-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: Chapter11/src/main/resources/mapper/mysql.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\" ?>\r\n<!DOCTYPE mapper\r\n        PUBLIC \"-//mybatis.org//DTD Mapper 3.0//EN\"\r\n        \"http://mybatis.org/dtd/mybatis-3-mapper.dtd\">\r\n\r\n<mapper namespace=\"com.course\">\r\n    <select id=\"getUserCount\" resultType=\"Integer\">\r\n        select count(*) from user;\r\n\r\n    </select>\r\n\r\n    <insert id=\"addUser\" parameterType=\"com.course.model.User\">\r\n        insert into user(id,name,age,sex)\r\n        values(#{id},#{name},#{age},#{sex})\r\n\r\n    </insert>\r\n\r\n    <update id=\"updateUser\" parameterType=\"com.course.model.User\">\r\n        update user set name=#{name},age=#{age}\r\n        where id=#{id}\r\n\r\n    </update>\r\n    <delete id=\"deleteUser\" parameterType=\"Integer\">\r\n        delete from user where id = #{id}\r\n\r\n    </delete>\r\n\r\n\r\n</mapper>
+===================================================================
+diff --git a/Chapter11/src/main/resources/mapper/mysql.xml b/Chapter11/src/main/resources/mapper/mysql.xml
+--- a/Chapter11/src/main/resources/mapper/mysql.xml	
++++ b/Chapter11/src/main/resources/mapper/mysql.xml	
+@@ -16,7 +16,7 @@
+     </insert>
+ 
+     <update id="updateUser" parameterType="com.course.model.User">
+-        update user set name=#{name},age=#{age}
++        update user set name=#{name},age=#{age},sex=#{sex}
+         where id=#{id}
+ 
+     </update>
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\r\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n    <modelVersion>4.0.0</modelVersion>\r\n    <parent>\r\n        <groupId>org.springframework.boot</groupId>\r\n        <artifactId>spring-boot-starter-parent</artifactId>\r\n        <version>2.0.0.RELEASE</version>\r\n    </parent>\r\n    <groupId>groupId</groupId>\r\n    <artifactId>AutoTest</artifactId>\r\n    <version>1.0-SNAPSHOT</version>\r\n    <packaging>pom</packaging>\r\n\r\n    <properties>\r\n        <maven.compiler.source>8</maven.compiler.source>\r\n        <maven.compiler.target>8</maven.compiler.target>\r\n    </properties>\r\n    <modules>\r\n        <module>Chapter5</module>\r\n        <module>Chapter6</module>\r\n        <module>Chapter9</module>\r\n        <module>Chapter10</module>\r\n        <module>Chapter11</module>\r\n    </modules>\r\n    <dependencies>\r\n        <dependency>\r\n            <groupId>org.testng</groupId>\r\n            <artifactId>testng</artifactId>\r\n            <version>6.10</version>\r\n        </dependency>\r\n    </dependencies>\r\n</project>
+===================================================================
+diff --git a/pom.xml b/pom.xml
+--- a/pom.xml	
++++ b/pom.xml	
+@@ -12,7 +12,18 @@
+     <artifactId>AutoTest</artifactId>
+     <version>1.0-SNAPSHOT</version>
+     <packaging>pom</packaging>
+-
++    <build>
++        <plugins>
++            <plugin>
++                <groupId>org.apache.maven.plugins</groupId>
++                <artifactId>maven-compiler-plugin</artifactId>
++                <configuration>
++                    <source>1.8</source>
++                    <target>1.8</target>
++                </configuration>
++            </plugin>
++        </plugins>
++    </build>
+     <properties>
+         <maven.compiler.source>8</maven.compiler.source>
+         <maven.compiler.target>8</maven.compiler.target>
+@@ -23,12 +34,48 @@
+         <module>Chapter9</module>
+         <module>Chapter10</module>
+         <module>Chapter11</module>
++        <module>Chapter12</module>
++        <module>Chapter13</module>
+     </modules>
+     <dependencies>
+         <dependency>
+             <groupId>org.testng</groupId>
+             <artifactId>testng</artifactId>
+             <version>6.10</version>
++        </dependency>
++        <dependency>
++            <groupId>org.apache.maven.plugins</groupId>
++            <artifactId>maven-compiler-plugin</artifactId>
++            <version>3.8.1</version>
++        </dependency>
++        <dependency>
++            <groupId>org.mybatis</groupId>
++            <artifactId>mybatis</artifactId>
++            <version>3.4.4</version>
++        </dependency>
++        <dependency>
++            <groupId>mysql</groupId>
++            <artifactId>mysql-connector-java</artifactId>
++            <version>5.1.6</version>
++        </dependency>  <dependency>
++        <groupId>org.mybatis</groupId>
++        <artifactId>mybatis</artifactId>
++        <version>3.4.4</version>
++    </dependency>
++        <dependency>
++            <groupId>mysql</groupId>
++            <artifactId>mysql-connector-java</artifactId>
++            <version>5.1.6</version>
++        </dependency>
++        <dependency>
++            <groupId>org.projectlombok</groupId>
++            <artifactId>lombok</artifactId>
++            <version>1.16.14</version>
++        </dependency>
++        <dependency>
++            <groupId>org.projectlombok</groupId>
++            <artifactId>lombok</artifactId>
++            <version>1.16.14</version>
+         </dependency>
+     </dependencies>
+ </project>
+\ No newline at end of file
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"Encoding\" defaultCharsetForPropertiesFiles=\"UTF-8\">\r\n    <file url=\"file://$PROJECT_DIR$/Chapter10/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/Chapter11/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/Chapter9/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/src/main/resources\" charset=\"UTF-8\" />\r\n    <file url=\"PROJECT\" charset=\"UTF-8\" />\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+--- a/.idea/encodings.xml	
++++ b/.idea/encodings.xml	
+@@ -3,6 +3,8 @@
+   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+     <file url="file://$PROJECT_DIR$/Chapter10/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/Chapter11/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/Chapter12/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/Chapter13/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/Chapter9/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CompilerConfiguration\">\r\n    <annotationProcessing>\r\n      <profile default=\"true\" name=\"Default\" enabled=\"true\" />\r\n      <profile name=\"Maven default annotation processors profile\" enabled=\"true\">\r\n        <sourceOutputDir name=\"target/generated-sources/annotations\" />\r\n        <sourceTestOutputDir name=\"target/generated-test-sources/test-annotations\" />\r\n        <outputRelativeToContentRoot value=\"true\" />\r\n        <module name=\"Chapter9\" />\r\n        <module name=\"Chapter6\" />\r\n        <module name=\"Chapter10\" />\r\n        <module name=\"Chapter5\" />\r\n        <module name=\"Chapter11\" />\r\n      </profile>\r\n    </annotationProcessing>\r\n    <bytecodeTargetLevel>\r\n      <module name=\"AutoTest\" target=\"8\" />\r\n      <module name=\"Chapter10\" target=\"8\" />\r\n      <module name=\"Chapter11\" target=\"8\" />\r\n      <module name=\"Chapter5\" target=\"8\" />\r\n      <module name=\"Chapter6\" target=\"16\" />\r\n      <module name=\"Chapter9\" target=\"8\" />\r\n    </bytecodeTargetLevel>\r\n  </component>\r\n  <component name=\"JavacSettings\">\r\n    <option name=\"ADDITIONAL_OPTIONS_OVERRIDE\">\r\n      <module name=\"Chapter10\" options=\"-parameters\" />\r\n      <module name=\"Chapter11\" options=\"-parameters\" />\r\n      <module name=\"Chapter9\" options=\"-parameters\" />\r\n    </option>\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+--- a/.idea/compiler.xml	
++++ b/.idea/compiler.xml	
+@@ -9,24 +9,31 @@
+         <outputRelativeToContentRoot value="true" />
+         <module name="Chapter9" />
+         <module name="Chapter6" />
+-        <module name="Chapter10" />
+         <module name="Chapter5" />
++        <module name="Chapter10" />
+         <module name="Chapter11" />
++        <module name="Chapter12" />
++        <module name="Chapter13" />
+       </profile>
+     </annotationProcessing>
+     <bytecodeTargetLevel>
+-      <module name="AutoTest" target="8" />
+-      <module name="Chapter10" target="8" />
+-      <module name="Chapter11" target="8" />
++      <module name="AutoTest" target="1.8" />
++      <module name="Chapter10" target="1.8" />
++      <module name="Chapter11" target="1.8" />
++      <module name="Chapter12" target="1.8" />
++      <module name="Chapter13" target="8" />
+       <module name="Chapter5" target="8" />
+       <module name="Chapter6" target="16" />
+-      <module name="Chapter9" target="8" />
++      <module name="Chapter9" target="1.8" />
+     </bytecodeTargetLevel>
+   </component>
+   <component name="JavacSettings">
+     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
++      <module name="AutoTest" options="" />
+       <module name="Chapter10" options="-parameters" />
+       <module name="Chapter11" options="-parameters" />
++      <module name="Chapter12" options="-parameters" />
++      <module name="Chapter13" options="-parameters" />
+       <module name="Chapter9" options="-parameters" />
+     </option>
+   </component>
+Index: .idea/AutoTest.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule=\"true\" type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" LANGUAGE_LEVEL=\"JDK_1_8\">\r\n    <output url=\"file://$MODULE_DIR$/target/classes\" />\r\n    <output-test url=\"file://$MODULE_DIR$/target/test-classes\" />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/main/java\" isTestSource=\"false\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/main/resources\" type=\"java-resource\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/test/java\" isTestSource=\"true\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/target\" />\r\n    </content>\r\n    <orderEntry type=\"jdk\" jdkName=\"1.8 (2)\" jdkType=\"JavaSDK\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.testng:testng:6.10\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.beust:jcommander:1.48\" level=\"project\" />\r\n  </component>\r\n</module>
+===================================================================
+diff --git a/.idea/AutoTest.iml b/.idea/AutoTest.iml
+--- a/.idea/AutoTest.iml	
++++ b/.idea/AutoTest.iml	
+@@ -13,5 +13,40 @@
+     <orderEntry type="sourceFolder" forTests="false" />
+     <orderEntry type="library" name="Maven: org.testng:testng:6.10" level="project" />
+     <orderEntry type="library" name="Maven: com.beust:jcommander:1.48" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven.plugins:maven-compiler-plugin:3.8.1" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-plugin-api:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-model:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.sisu:sisu-inject-plexus:1.4.2" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.sisu:sisu-inject-bean:1.4.2" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.sisu:sisu-guice:noaop:2.1.7" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-artifact:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-utils:2.0.4" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-core:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-settings:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-settings-builder:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-repository-metadata:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven:maven-model-builder:3.0" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.maven:maven-aether-provider:3.0" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.aether:aether-impl:1.7" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.aether:aether-spi:1.7" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.aether:aether-api:1.7" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.aether:aether-util:1.7" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-interpolation:1.14" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-classworlds:2.2.3" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-component-annotations:1.5.5" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.plexus:plexus-sec-dispatcher:1.3" level="project" />
++    <orderEntry type="library" name="Maven: org.sonatype.plexus:plexus-cipher:1.4" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven.shared:maven-shared-utils:3.2.1" level="project" />
++    <orderEntry type="library" name="Maven: commons-io:commons-io:2.5" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.maven.shared:maven-shared-incremental:1.1" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-java:0.9.10" level="project" />
++    <orderEntry type="library" name="Maven: org.ow2.asm:asm:6.2" level="project" />
++    <orderEntry type="library" name="Maven: com.thoughtworks.qdox:qdox:2.0-M8" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-compiler-api:2.8.4" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-compiler-manager:2.8.4" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.plexus:plexus-compiler-javac:2.8.4" level="project" />
++    <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.4.4" level="project" />
++    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.6" level="project" />
++    <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.14" level="project" />
+   </component>
+ </module>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectModuleManager\">\r\n    <modules>\r\n      <module fileurl=\"file://$PROJECT_DIR$/.idea/AutoTest.iml\" filepath=\"$PROJECT_DIR$/.idea/AutoTest.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/Chapter10/Chapter10.iml\" filepath=\"$PROJECT_DIR$/Chapter10/Chapter10.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/Chapter11/Chapter11.iml\" filepath=\"$PROJECT_DIR$/Chapter11/Chapter11.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/Chapter5/Chapter5.iml\" filepath=\"$PROJECT_DIR$/Chapter5/Chapter5.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/Chapter6/Chapter6.iml\" filepath=\"$PROJECT_DIR$/Chapter6/Chapter6.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/Chapter9/Chapter9.iml\" filepath=\"$PROJECT_DIR$/Chapter9/Chapter9.iml\" />\r\n    </modules>\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+--- a/.idea/modules.xml	
++++ b/.idea/modules.xml	
+@@ -5,6 +5,8 @@
+       <module fileurl="file://$PROJECT_DIR$/.idea/AutoTest.iml" filepath="$PROJECT_DIR$/.idea/AutoTest.iml" />
+       <module fileurl="file://$PROJECT_DIR$/Chapter10/Chapter10.iml" filepath="$PROJECT_DIR$/Chapter10/Chapter10.iml" />
+       <module fileurl="file://$PROJECT_DIR$/Chapter11/Chapter11.iml" filepath="$PROJECT_DIR$/Chapter11/Chapter11.iml" />
++      <module fileurl="file://$PROJECT_DIR$/Chapter12/Chapter12.iml" filepath="$PROJECT_DIR$/Chapter12/Chapter12.iml" />
++      <module fileurl="file://$PROJECT_DIR$/Chapter13/Chapter13.iml" filepath="$PROJECT_DIR$/Chapter13/Chapter13.iml" />
+       <module fileurl="file://$PROJECT_DIR$/Chapter5/Chapter5.iml" filepath="$PROJECT_DIR$/Chapter5/Chapter5.iml" />
+       <module fileurl="file://$PROJECT_DIR$/Chapter6/Chapter6.iml" filepath="$PROJECT_DIR$/Chapter6/Chapter6.iml" />
+       <module fileurl="file://$PROJECT_DIR$/Chapter9/Chapter9.iml" filepath="$PROJECT_DIR$/Chapter9/Chapter9.iml" />
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"aeb2579c-ba57-4287-959d-b97c8463fbff\" name=\"Changes\" comment=\"&quot;moco1&quot;\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_38.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_4.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_4.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_4.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_4.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_4.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_8.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_6_1.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_6_1.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_6_1.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_6_1.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_6_1.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_6_1.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_6_1.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_10.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_10.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_45.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_28.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_28.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_28.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_7_Final.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20170516.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_0_0_Final.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_4.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_0.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_0.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_14.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_0_RELEASE.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_0_RELEASE.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_0_RELEASE.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_0_RELEASE.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_0_RELEASE.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_0_RELEASE.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_0_RELEASE.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_0_RELEASE.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_4_RELEASE.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_4_RELEASE.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_4_RELEASE.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_4_RELEASE.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_4_RELEASE.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_4_RELEASE.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_4_RELEASE.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_4_RELEASE.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_4_RELEASE.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_4_RELEASE.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Chapter10/Chapter10.iml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Chapter10/pom.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Chapter10/src/main/java/com/course/bean/User.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Chapter10/src/main/java/com/course/config/SwaggerConfig.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Chapter10/src/main/java/com/course/server/MyGetMethod.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Chapter10/src/main/java/com/course/server/MyPostMethod.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Chapter10/src/main/java/hello/Application.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Chapter10/src/main/java/hello/SampleController.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Chapter10/src/main/resources/application.properties\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Chapter11/Chapter11.iml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Chapter11/pom.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Chapter11/src/main/java/com/course/Application.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Chapter11/src/main/java/com/course/controller/Demo.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Chapter11/src/main/resources/application.yml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Chapter11/src/main/resources/logbak.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Chapter11/src/main/resources/mapper/mysql.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Chapter11/src/main/resources/mybatis-config.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Chapter7/startupPost.json\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Chapter7/startupWithCookies.json\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Chapter7/startupWithHeader.json\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Chapter7/startupWithRedirect.json\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Chapter9/Chapter9.iml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Chapter9/pom.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/MyCookiesForGet.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/MyCookiesForPost.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/doGetTestOne.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/demo/MyHttpClient.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Chapter9/src/main/resources/application.properties\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/mylog.log\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/AutoTest.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/AutoTest.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/compiler.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/compiler.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/encodings.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/encodings.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/jarRepositories.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/jarRepositories.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/modules.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/modules.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Chapter5/Chapter5.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Chapter5/Chapter5.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Chapter5/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Chapter5/pom.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/BasicAnnotation.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/BasicAnnotation.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/DependTest.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/DependTest.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/ExpectedException.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/ExpectedException.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/IgnoreTest.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/IgnoreTest.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/groups/GroupOnClass1.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/groups/GroupOnClass1.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/groups/GroupOnClass2.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/groups/GroupOnClass2.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/groups/GroupOnClass3.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/groups/GroupOnClass3.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/groups/GroupsOnMethod.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/groups/GroupsOnMethod.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/multiThread/MultiThreadOnAnnotation.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/multiThread/MultiThreadOnAnnotation.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/multiThread/MultiThreadOnXml.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/multiThread/MultiThreadOnXml.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/parameter/DataProviderTest.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/parameter/DataProviderTest.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/parameter/ParameterTest.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/parameter/ParameterTest.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/suite/LoginTest.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/suite/LoginTest.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/suite/PayTest.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/suite/PayTest.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/suite/SuiteConfig.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/suite/SuiteConfig.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/suite/TimeOutTest.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/suite/TimeOutTest.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Chapter6/Chapter6.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Chapter6/Chapter6.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Chapter7/startup1.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Chapter7/startup1.json\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Chapter7/基本操作说明\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Chapter7/基本操作说明\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/pom.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"localRepository\" value=\"G:\\LocalRepository\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"22obsC0G6ahfoJaVO4Lh4YgcINR\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\r\n    <property name=\"RequestMappingsPanelOrder0\" value=\"0\" />\r\n    <property name=\"RequestMappingsPanelOrder1\" value=\"1\" />\r\n    <property name=\"RequestMappingsPanelWidth0\" value=\"75\" />\r\n    <property name=\"RequestMappingsPanelWidth1\" value=\"75\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"H:/AutoTest\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Project\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.2\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.editor.code.editing\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"G:\\development tool\\Git\\workspace\\muke\\AutoTest\\Chapter7\" />\r\n      <recent name=\"G:\\development tool\\Git\\workspace\\muke\\AutoTest\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"G:\\development tool\\Git\\workspace\\muke\\AutoTest\\Chapter11\\src\\main\\resources\\mapper\" />\r\n    </key>\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"com.tester.extend.demo\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunDashboard\">\r\n    <option name=\"configurationTypes\">\r\n      <set>\r\n        <option value=\"SpringBootApplicationConfigurationType\" />\r\n      </set>\r\n    </option>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"TestNG.doGetTestOne\">\r\n    <configuration name=\"Application (1)\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Chapter11\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"Application\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Application\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Chapter10\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"hello.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"hello.Application\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"MyCookiesForPost\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Chapter9\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.course.httpclient.cookies.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.course.httpclient.cookies\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.course.httpclient.cookies.MyCookiesForPost\" />\r\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"doGetTestOne\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Chapter9\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.course.httpclient.cookies.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.course.httpclient.cookies\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.course.httpclient.cookies.doGetTestOne\" />\r\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"doGetTestOne.doGetTestOne\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Chapter9\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.course.httpclient.cookies.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.course.httpclient.cookies\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.course.httpclient.cookies.doGetTestOne\" />\r\n      <option name=\"METHOD_NAME\" value=\"doGetTestOne\" />\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"TestNG.doGetTestOne\" />\r\n        <item itemvalue=\"TestNG.doGetTestOne.doGetTestOne\" />\r\n        <item itemvalue=\"Spring Boot.Application (1)\" />\r\n        <item itemvalue=\"Spring Boot.Application\" />\r\n        <item itemvalue=\"TestNG.MyCookiesForPost\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"aeb2579c-ba57-4287-959d-b97c8463fbff\" name=\"Changes\" comment=\"\" />\r\n      <created>1640507093670</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1640507093670</updated>\r\n      <workItem from=\"1640507098188\" duration=\"247000\" />\r\n      <workItem from=\"1640507372494\" duration=\"14212000\" />\r\n      <workItem from=\"1640611792000\" duration=\"7888000\" />\r\n      <workItem from=\"1640664528362\" duration=\"4512000\" />\r\n      <workItem from=\"1640694173974\" duration=\"10190000\" />\r\n      <workItem from=\"1640740934813\" duration=\"15684000\" />\r\n      <workItem from=\"1640783468935\" duration=\"866000\" />\r\n      <workItem from=\"1640786898206\" duration=\"6179000\" />\r\n      <workItem from=\"1640829567942\" duration=\"2044000\" />\r\n      <workItem from=\"1640920301150\" duration=\"13861000\" />\r\n      <workItem from=\"1640951763669\" duration=\"7332000\" />\r\n      <workItem from=\"1641004361907\" duration=\"11046000\" />\r\n      <workItem from=\"1641041469277\" duration=\"8047000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"&quot;moco1&quot;\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"&quot;moco1&quot;\" />\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,127 +5,109 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="aeb2579c-ba57-4287-959d-b97c8463fbff" name="Changes" comment="&quot;moco1&quot;">
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_38.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_4.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_4.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_4.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_4.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_4.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_8.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_6_1.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_6_1.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_6_1.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_6_1.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_6_1.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_6_1.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_6_1.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_10.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_10.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_45.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_28.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_28.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_28.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_7_Final.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20170516.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_0_0_Final.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_4.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_0.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_0.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_14.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_0_RELEASE.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_0_RELEASE.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_0_RELEASE.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_0_RELEASE.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_0_RELEASE.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_0_RELEASE.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_0_RELEASE.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_0_RELEASE.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_4_RELEASE.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_4_RELEASE.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_4_RELEASE.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_4_RELEASE.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_4_RELEASE.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_4_RELEASE.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_4_RELEASE.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_4_RELEASE.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_4_RELEASE.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_4_RELEASE.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Chapter10/Chapter10.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Chapter10/pom.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/course/bean/User.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/course/config/SwaggerConfig.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/course/server/MyGetMethod.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/course/server/MyPostMethod.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Chapter10/src/main/java/hello/Application.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Chapter10/src/main/java/hello/SampleController.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Chapter10/src/main/resources/application.properties" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Chapter11/Chapter11.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Chapter11/pom.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/course/Application.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/course/controller/Demo.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Chapter11/src/main/resources/application.yml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Chapter11/src/main/resources/logbak.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Chapter11/src/main/resources/mapper/mysql.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Chapter11/src/main/resources/mybatis-config.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Chapter7/startupPost.json" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Chapter7/startupWithCookies.json" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Chapter7/startupWithHeader.json" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Chapter7/startupWithRedirect.json" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Chapter9/Chapter9.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Chapter9/pom.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/MyCookiesForGet.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/MyCookiesForPost.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/doGetTestOne.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/demo/MyHttpClient.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Chapter9/src/main/resources/application.properties" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/mylog.log" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_qdox_qdox_2_0_M8.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_1_2.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_5.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_aether_provider_3_0.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_3_0.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_core_3_0.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_3_0.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_builder_3_0.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_3_0.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_repository_metadata_3_0.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_settings_3_0.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_settings_builder_3_0.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_plugins_maven_compiler_plugin_3_8_1.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_shared_incremental_1_1.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_shared_utils_3_2_1.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_classworlds_2_2_3.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_compiler_api_2_8_4.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_compiler_javac_2_8_4.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_compiler_manager_2_8_4.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_component_annotations_1_5_5.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_interpolation_1_14.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_java_0_9_10.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_2_0_4.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_27_incubating.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_5_Final.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_6_3.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_6_3.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_6_3.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_6_2.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_10.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_aether_aether_api_1_7.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_aether_aether_impl_1_7.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_aether_aether_spi_1_7.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_aether_aether_util_1_7.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_cipher_1_4.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_sec_dispatcher_1_3.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_guice_noaop_2_1_7.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_inject_bean_1_4_2.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_inject_plexus_1_4_2.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_3_RELEASE.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_21_0_1.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/course/model/User.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter12/Chapter12.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter12/pom.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/course/cases/AddUserTest.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/course/cases/GetUserInfoListTest.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/course/cases/GetUserInfoTest.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/course/cases/LoginTest.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/course/cases/UpdateUserInfoTest.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/course/config/ExtentTestNGIReporterListener.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/course/config/TestConfig.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/course/model/AddUserCase.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/course/model/GetUserInfoCase.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/course/model/GetUserListCase.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/course/model/InterfaceName.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/course/model/LoginCase.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/course/model/UpdateUserInfoCase.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/course/model/User.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/course/utils/ConfigFile.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/course/utils/DatabaseUtil.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/resources/application.properties" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/resources/databaseConfig.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/resources/mapper/SQLMapper.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/resources/testng.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter12/test-output/index.html" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter13/Chapter13.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter13/pom.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/course/Application.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/course/config/SwaggerConfig.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/course/controller/UserManager.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/course/model/User.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter13/src/main/resources/application.yml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter13/src/main/resources/log4j.properties" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter13/src/main/resources/logback.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter13/src/main/resources/mapper/mysql.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter13/src/main/resources/mybatis-config.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/logs/event.log" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/logs/userManager.log" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/mylog.log.2022-01-01.0.gz" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/AutoTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AutoTest.iml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_45.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Chapter5/Chapter5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/Chapter5.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Chapter5/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/pom.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/BasicAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/BasicAnnotation.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/DependTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/DependTest.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/ExpectedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/ExpectedException.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/IgnoreTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/IgnoreTest.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/groups/GroupOnClass1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/groups/GroupOnClass1.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/groups/GroupOnClass2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/groups/GroupOnClass2.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/groups/GroupOnClass3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/groups/GroupOnClass3.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/groups/GroupsOnMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/groups/GroupsOnMethod.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/multiThread/MultiThreadOnAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/multiThread/MultiThreadOnAnnotation.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/multiThread/MultiThreadOnXml.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/multiThread/MultiThreadOnXml.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/parameter/DataProviderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/parameter/DataProviderTest.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/parameter/ParameterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/parameter/ParameterTest.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/suite/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/suite/LoginTest.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/suite/PayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/suite/PayTest.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/suite/SuiteConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/suite/SuiteConfig.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/suite/TimeOutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/suite/TimeOutTest.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Chapter6/Chapter6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter6/Chapter6.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Chapter7/startup1.json" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter7/startup1.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Chapter7/基本操作说明" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter7/基本操作说明" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Chapter10/Chapter10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter10/Chapter10.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Chapter11/Chapter11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter11/Chapter11.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Chapter11/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter11/pom.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Chapter11/src/main/java/com/course/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/course/Application.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Chapter11/src/main/java/com/course/controller/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/course/controller/Demo.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Chapter11/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter11/src/main/resources/application.yml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Chapter11/src/main/resources/mapper/mysql.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter11/src/main/resources/mapper/mysql.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Chapter11/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter11/target/classes/application.yml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Chapter11/target/classes/mapper/mysql.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter11/target/classes/mapper/mysql.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Chapter9/Chapter9.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter9/Chapter9.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/mylog.log" beforeDir="false" afterPath="$PROJECT_DIR$/mylog.log" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -136,6 +118,7 @@
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+       <list>
++        <option value="Enum" />
+         <option value="Class" />
+       </list>
+     </option>
+@@ -157,6 +140,9 @@
+         <option name="localRepository" value="G:\LocalRepository" />
+       </MavenGeneralSettings>
+     </option>
++  </component>
++  <component name="MavenRunner">
++    <option name="delegateBuildToMaven" value="true" />
+   </component>
+   <component name="ProjectId" id="22obsC0G6ahfoJaVO4Lh4YgcINR" />
+   <component name="ProjectLevelVcsManager">
+@@ -176,16 +162,16 @@
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+-    <property name="last_opened_file_path" value="H:/AutoTest" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AutoTest2" />
+     <property name="node.js.detected.package.eslint" value="true" />
+     <property name="node.js.detected.package.tslint" value="true" />
+     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+     <property name="nodejs_package_manager_path" value="npm" />
+-    <property name="project.structure.last.edited" value="Project" />
++    <property name="project.structure.last.edited" value="Modules" />
+     <property name="project.structure.proportion" value="0.15" />
+-    <property name="project.structure.side.proportion" value="0.2" />
+-    <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
++    <property name="project.structure.side.proportion" value="0.6080957" />
++    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+   </component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+@@ -205,38 +191,42 @@
+         <option value="SpringBootApplicationConfigurationType" />
+       </set>
+     </option>
++    <option name="openRunningConfigInTab" value="true" />
+   </component>
+-  <component name="RunManager" selected="TestNG.doGetTestOne">
+-    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+-      <module name="Chapter11" />
+-      <option name="SPRING_BOOT_MAIN_CLASS" value="Application" />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
++  <component name="RunManager" selected="TestNG.G:/development tool/Git/workspace/muke/AutoTest/Chapter12/src/main/resources/testng.xml">
+     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+-      <module name="Chapter10" />
++      <module name="Chapter13" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="hello.*" />
++          <option name="PATTERN" value="com.course.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.Application" />
++      <option name="SPRING_BOOT_MAIN_CLASS" value="com.course.Application" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="G:/development tool/Git/workspace/muke/AutoTest/Chapter12/src/main/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
++      <module name="Chapter12" />
++      <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter12/src/main/resources/testng.xml" />
++      <option name="TEST_OBJECT" value="SUITE" />
++      <properties />
++      <listeners />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="MyCookiesForPost" type="TestNG" temporary="true" nameIsGenerated="true">
+-      <module name="Chapter9" />
++    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
++      <module name="Chapter12" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="com.course.httpclient.cookies.*" />
++          <option name="PATTERN" value="com.course.cases.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
+-      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.MyCookiesForPost" />
++      <option name="PACKAGE_NAME" value="com.course.cases" />
++      <option name="MAIN_CLASS_NAME" value="com.course.cases.LoginTest" />
+       <option name="TEST_OBJECT" value="CLASS" />
+       <properties />
+       <listeners />
+@@ -244,34 +234,34 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="doGetTestOne" type="TestNG" temporary="true" nameIsGenerated="true">
+-      <module name="Chapter9" />
++    <configuration name="LoginTest.loginFalse" type="TestNG" temporary="true" nameIsGenerated="true">
++      <module name="Chapter12" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="com.course.httpclient.cookies.*" />
++          <option name="PATTERN" value="com.course.cases.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
+-      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.doGetTestOne" />
+-      <option name="TEST_OBJECT" value="CLASS" />
++      <option name="PACKAGE_NAME" value="com.course.cases" />
++      <option name="MAIN_CLASS_NAME" value="com.course.cases.LoginTest" />
++      <option name="METHOD_NAME" value="loginFalse" />
++      <option name="TEST_OBJECT" value="METHOD" />
+       <properties />
+       <listeners />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="doGetTestOne.doGetTestOne" type="TestNG" temporary="true" nameIsGenerated="true">
+-      <module name="Chapter9" />
++    <configuration name="LoginTest.loginTrue (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="com.course.httpclient.cookies.*" />
++          <option name="PATTERN" value="com.course.cases.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
+-      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.doGetTestOne" />
+-      <option name="METHOD_NAME" value="doGetTestOne" />
++      <option name="PACKAGE_NAME" value="com.course.cases" />
++      <option name="MAIN_CLASS_NAME" value="com.course.cases.LoginTest" />
++      <option name="METHOD_NAME" value="loginTrue" />
+       <option name="TEST_OBJECT" value="METHOD" />
+       <properties />
+       <listeners />
+@@ -281,11 +271,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="TestNG.doGetTestOne" />
+-        <item itemvalue="TestNG.doGetTestOne.doGetTestOne" />
+-        <item itemvalue="Spring Boot.Application (1)" />
++        <item itemvalue="TestNG.G:/development tool/Git/workspace/muke/AutoTest/Chapter12/src/main/resources/testng.xml" />
+         <item itemvalue="Spring Boot.Application" />
+-        <item itemvalue="TestNG.MyCookiesForPost" />
++        <item itemvalue="TestNG.LoginTest.loginTrue (1)" />
++        <item itemvalue="TestNG.LoginTest" />
++        <item itemvalue="TestNG.LoginTest.loginFalse" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -310,6 +300,13 @@
+       <workItem from="1640951763669" duration="7332000" />
+       <workItem from="1641004361907" duration="11046000" />
+       <workItem from="1641041469277" duration="8047000" />
++      <workItem from="1641110431954" duration="7290000" />
++      <workItem from="1641174027777" duration="17327000" />
++      <workItem from="1641264628374" duration="9575000" />
++      <workItem from="1641346680438" duration="15268000" />
++      <workItem from="1641436278794" duration="18197000" />
++      <workItem from="1641522766537" duration="14866000" />
++      <workItem from="1641612608944" duration="6484000" />
+     </task>
+     <servers />
+   </component>
+@@ -332,6 +329,24 @@
+     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+     <MESSAGE value="&quot;moco1&quot;" />
+     <option name="LAST_COMMIT_MESSAGE" value="&quot;moco1&quot;" />
++  </component>
++  <component name="XDebuggerManager">
++    <breakpoint-manager>
++      <breakpoints>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>jar://$PROJECT_DIR$/../../../../../LocalRepository/org/projectlombok/lombok/1.16.14/lombok-1.16.14.jar!/lombok/extern/log4j/Log4j.class</url>
++          <option name="timeStamp" value="1" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-method">
++          <url>file://$PROJECT_DIR$/Chapter12/src/main/java/com/course/cases/LoginTest.java</url>
++          <line>54</line>
++          <properties class="com.course.cases.LoginTest" method="loginFalse">
++            <option name="EMULATED" value="true" />
++          </properties>
++          <option name="timeStamp" value="2" />
++        </line-breakpoint>
++      </breakpoints>
++    </breakpoint-manager>
+   </component>
+   <component name="XSLT-Support.FileAssociations.UIState">
+     <expand />
+Index: Chapter11/src/main/resources/application.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>server:\r\n  port: 8888\r\n\r\nlogging:\r\n  path: logs\r\n  file: mylog.log\r\n\r\nspring:\r\n  application:\r\n    name: myTest\r\n    datasource:\r\n      driver-class-name: com.mysql.jdbc.Driver\r\n      url: jdbc:mysql://192.168.2.103:3306/course\r\n      username: root\r\n      password: 123456\r\n\r\nmybatis:\r\n  type-aliases-package: com.course.model\r\n  mapper-locations:\r\n    - mapper/*
+===================================================================
+diff --git a/Chapter11/src/main/resources/application.yml b/Chapter11/src/main/resources/application.yml
+--- a/Chapter11/src/main/resources/application.yml	
++++ b/Chapter11/src/main/resources/application.yml	
+@@ -5,16 +5,17 @@
+   path: logs
+   file: mylog.log
+ 
++
+ spring:
+   application:
+-    name: myTest
+-    datasource:
+-      driver-class-name: com.mysql.jdbc.Driver
+-      url: jdbc:mysql://192.168.2.103:3306/course
+-      username: root
+-      password: 123456
++    name: report
++  datasource:
++    driver-class-name: com.mysql.jdbc.Driver
++    url: jdbc:mysql://192.168.2.103:3306/course?useSSL=false
++    username: root
++    password: 123456
+ 
+ mybatis:
+   type-aliases-package: com.course.model
+   mapper-locations:
+-    - mapper/*
+\ No newline at end of file
++    - mapper/*
+Index: Chapter11/target/classes/mapper/mysql.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\" ?>\r\n<!DOCTYPE mapper\r\n        PUBLIC \"-//mybatis.org//DTD Mapper 3.0//EN\"\r\n        \"http://mybatis.org/dtd/mybatis-3-mapper.dtd\">\r\n\r\n<mapper namespace=\"com.course\">\r\n    <select id=\"getUserCount\" resultType=\"Integer\">\r\n        select count(*) from user;\r\n\r\n    </select>\r\n\r\n    <insert id=\"addUser\" parameterType=\"com.course.model.User\">\r\n        insert into user(id,name,age,sex)\r\n        values(#{id},#{name},#{age},#{sex})\r\n\r\n    </insert>\r\n\r\n    <update id=\"updateUser\" parameterType=\"com.course.model.User\">\r\n        update user set name=#{name},age=#{age}\r\n        where id=#{id}\r\n\r\n    </update>\r\n    <delete id=\"deleteUser\" parameterType=\"Integer\">\r\n        delete from user where id = #{id}\r\n\r\n    </delete>\r\n\r\n\r\n</mapper>
+===================================================================
+diff --git a/Chapter11/target/classes/mapper/mysql.xml b/Chapter11/target/classes/mapper/mysql.xml
+--- a/Chapter11/target/classes/mapper/mysql.xml	
++++ b/Chapter11/target/classes/mapper/mysql.xml	
+@@ -16,7 +16,7 @@
+     </insert>
+ 
+     <update id="updateUser" parameterType="com.course.model.User">
+-        update user set name=#{name},age=#{age}
++        update user set name=#{name},age=#{age},sex=#{sex}
+         where id=#{id}
+ 
+     </update>
+Index: mylog.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>2022-01-01 22:06:04.462  INFO 13484 --- [main] Application                              : Starting Application on DESKTOP-4CR0P4M with PID 13484 (started by 曹吉星 in G:\\development tool\\Git\\workspace\\muke\\AutoTest)\r\n2022-01-01 22:06:04.465  INFO 13484 --- [main] Application                              : No active profile set, falling back to default profiles: default\r\n2022-01-01 22:06:04.488  INFO 13484 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@22ff4249: startup date [Sat Jan 01 22:06:04 CST 2022]; root of context hierarchy\r\n2022-01-01 22:06:04.494  WARN 13484 --- [main] ionWarningsApplicationContextInitializer : \r\n\r\n** WARNING ** : Your ApplicationContext is unlikely to start due to a @ComponentScan of the default package.\r\n\r\n\r\n2022-01-01 22:06:16.886  WARN 13484 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [Application]; nested exception is java.io.FileNotFoundException: class path resource [org/springframework/web/reactive/config/DelegatingWebFluxConfiguration.class] cannot be opened because it does not exist\r\n2022-01-01 22:06:16.889  INFO 13484 --- [main] ConditionEvaluationReportLoggingListener : \r\n\r\nError starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.\r\n2022-01-01 22:06:16.895 ERROR 13484 --- [main] o.s.boot.SpringApplication               : Application run failed\r\n\r\norg.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [Application]; nested exception is java.io.FileNotFoundException: class path resource [org/springframework/web/reactive/config/DelegatingWebFluxConfiguration.class] cannot be opened because it does not exist\r\n\tat org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:180) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]\r\n\tat org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:316) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]\r\n\tat org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:233) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]\r\n\tat org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:273) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]\r\n\tat org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:93) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]\r\n\tat org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:693) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]\r\n\tat org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:531) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]\r\n\tat org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]\r\n\tat org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]\r\n\tat org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]\r\n\tat org.springframework.boot.SpringApplication.run(SpringApplication.java:327) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]\r\n\tat org.springframework.boot.SpringApplication.run(SpringApplication.java:1246) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]\r\n\tat org.springframework.boot.SpringApplication.run(SpringApplication.java:1234) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]\r\n\tat Application.main(Application.java:17) [classes/:na]\r\nCaused by: java.io.FileNotFoundException: class path resource [org/springframework/web/reactive/config/DelegatingWebFluxConfiguration.class] cannot be opened because it does not exist\r\n\tat org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:180) ~[spring-core-5.0.4.RELEASE.jar:5.0.4.RELEASE]\r\n\tat org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:51) ~[spring-core-5.0.4.RELEASE.jar:5.0.4.RELEASE]\r\n\tat org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103) ~[spring-core-5.0.4.RELEASE.jar:5.0.4.RELEASE]\r\n\tat org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:88) ~[spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]\r\n\tat org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:75) ~[spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]\r\n\tat org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81) ~[spring-core-5.0.4.RELEASE.jar:5.0.4.RELEASE]\r\n\tat org.springframework.context.annotation.ConfigurationClassParser.asSourceClass(ConfigurationClassParser.java:699) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]\r\n\tat org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getSuperClass(ConfigurationClassParser.java:869) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]\r\n\tat org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:326) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]\r\n\tat org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:241) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]\r\n\tat org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:190) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]\r\n\tat org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:289) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]\r\n\tat org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:241) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]\r\n\tat org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:198) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]\r\n\tat org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:166) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]\r\n\t... 13 common frames omitted\r\n\r\n
+===================================================================
+diff --git a/mylog.log b/mylog.log
+--- a/mylog.log	
++++ b/mylog.log	
+@@ -1,47 +1,68 @@
+-2022-01-01 22:06:04.462  INFO 13484 --- [main] Application                              : Starting Application on DESKTOP-4CR0P4M with PID 13484 (started by 曹吉星 in G:\development tool\Git\workspace\muke\AutoTest)
+-2022-01-01 22:06:04.465  INFO 13484 --- [main] Application                              : No active profile set, falling back to default profiles: default
+-2022-01-01 22:06:04.488  INFO 13484 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@22ff4249: startup date [Sat Jan 01 22:06:04 CST 2022]; root of context hierarchy
+-2022-01-01 22:06:04.494  WARN 13484 --- [main] ionWarningsApplicationContextInitializer : 
+-
+-** WARNING ** : Your ApplicationContext is unlikely to start due to a @ComponentScan of the default package.
+-
+-
+-2022-01-01 22:06:16.886  WARN 13484 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [Application]; nested exception is java.io.FileNotFoundException: class path resource [org/springframework/web/reactive/config/DelegatingWebFluxConfiguration.class] cannot be opened because it does not exist
+-2022-01-01 22:06:16.889  INFO 13484 --- [main] ConditionEvaluationReportLoggingListener : 
+-
+-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+-2022-01-01 22:06:16.895 ERROR 13484 --- [main] o.s.boot.SpringApplication               : Application run failed
+-
+-org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [Application]; nested exception is java.io.FileNotFoundException: class path resource [org/springframework/web/reactive/config/DelegatingWebFluxConfiguration.class] cannot be opened because it does not exist
+-	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:180) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+-	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:316) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+-	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:233) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:273) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:93) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:693) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:531) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+-	at Application.main(Application.java:17) [classes/:na]
+-Caused by: java.io.FileNotFoundException: class path resource [org/springframework/web/reactive/config/DelegatingWebFluxConfiguration.class] cannot be opened because it does not exist
+-	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:180) ~[spring-core-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+-	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:51) ~[spring-core-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+-	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103) ~[spring-core-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+-	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:88) ~[spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+-	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:75) ~[spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+-	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81) ~[spring-core-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+-	at org.springframework.context.annotation.ConfigurationClassParser.asSourceClass(ConfigurationClassParser.java:699) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+-	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getSuperClass(ConfigurationClassParser.java:869) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+-	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:326) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+-	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:241) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+-	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:190) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+-	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:289) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+-	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:241) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+-	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:198) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+-	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:166) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+-	... 13 common frames omitted
+-
++2022-01-05 01:09:54.545  INFO 15216 --- [main] com.course.Application                   : Starting Application on DESKTOP-4CR0P4M with PID 15216 (started by 曹吉星 in G:\development tool\Git\workspace\muke\AutoTest)
++2022-01-05 01:09:54.548  INFO 15216 --- [main] com.course.Application                   : No active profile set, falling back to default profiles: default
++2022-01-05 01:09:54.637  INFO 15216 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@26794848: startup date [Wed Jan 05 01:09:54 CST 2022]; root of context hierarchy
++2022-01-05 01:09:55.206  WARN 15216 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
++2022-01-05 01:09:55.363  INFO 15216 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
++2022-01-05 01:09:55.637  INFO 15216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
++2022-01-05 01:09:55.658  INFO 15216 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
++2022-01-05 01:09:55.659  INFO 15216 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
++2022-01-05 01:09:55.661  INFO 15216 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [G:\development tool\JDK\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;G:\development tool\JDK\jdk1.8.0_131\bin;C:\Program Files\Common Files\Oracle\Java\javapath;E:\vpn\;E:\python\Scripts\;E:\python\;G:\sdk\sdk\platform-tools;G:\sdk\sdk\tools;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files (x86)\Common Files\microsoft shared\TigerKin;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Common Files\microsoft shared\TigerKin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\microsoft shared\TigerKin;G:\development tool\Git\cmd;G:\development tool\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;G:\development tool\MySQL\MySQL Server 8.0\bin;E:\Python\Python38-32\Scripts\;E:\Python\Python38-32\;C:\Users\曹吉星\AppData\Local\Microsoft\WindowsApps;E:\Fiddler;C:\Users\曹吉星\AppData\Local\Microsoft\WindowsApps;G:\development tool\PyCharm 2021.3\bin;;;.]
++2022-01-05 01:09:55.739  INFO 15216 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
++2022-01-05 01:09:55.740  INFO 15216 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1103 ms
++2022-01-05 01:09:55.841  INFO 15216 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
++2022-01-05 01:09:55.844  INFO 15216 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
++2022-01-05 01:09:55.844  INFO 15216 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
++2022-01-05 01:09:55.844  INFO 15216 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
++2022-01-05 01:09:55.845  INFO 15216 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
++2022-01-05 01:09:56.212  INFO 15216 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@26794848: startup date [Wed Jan 05 01:09:54 CST 2022]; root of context hierarchy
++2022-01-05 01:09:56.248  INFO 15216 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/addUser],methods=[POST]}" onto public int com.course.controller.Demo.addUser(com.course.model.User)
++2022-01-05 01:09:56.249  INFO 15216 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/deleteUser],methods=[GET]}" onto public int com.course.controller.Demo.delUser(int)
++2022-01-05 01:09:56.249  INFO 15216 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/updateUser],methods=[POST]}" onto public int com.course.controller.Demo.updateUser(com.course.model.User)
++2022-01-05 01:09:56.249  INFO 15216 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/getUserCount],methods=[GET]}" onto public int com.course.controller.Demo.getUserCount()
++2022-01-05 01:09:56.251  INFO 15216 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
++2022-01-05 01:09:56.251  INFO 15216 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
++2022-01-05 01:09:56.271  INFO 15216 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
++2022-01-05 01:09:56.271  INFO 15216 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
++2022-01-05 01:09:56.337  INFO 15216 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
++2022-01-05 01:09:56.465  INFO 15216 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
++2022-01-05 01:09:56.466  INFO 15216 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
++2022-01-05 01:09:56.469  INFO 15216 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
++2022-01-05 01:09:56.504  INFO 15216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
++2022-01-05 01:09:56.506  INFO 15216 --- [main] com.course.Application                   : Started Application in 2.603 seconds (JVM running for 3.968)
++2022-01-05 01:11:59.037  INFO 15216 --- [Thread-8] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@26794848: startup date [Wed Jan 05 01:09:54 CST 2022]; root of context hierarchy
++2022-01-05 01:11:59.039  INFO 15216 --- [Thread-8] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
++2022-01-05 01:11:59.039  INFO 15216 --- [Thread-8] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
++2022-01-05 01:47:45.706  INFO 26728 --- [main] com.course.Application                   : Starting Application on DESKTOP-4CR0P4M with PID 26728 (started by 曹吉星 in G:\development tool\Git\workspace\muke\AutoTest)
++2022-01-05 01:47:45.707  INFO 26728 --- [main] com.course.Application                   : No active profile set, falling back to default profiles: default
++2022-01-05 01:47:45.727  INFO 26728 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3d285d7e: startup date [Wed Jan 05 01:47:45 CST 2022]; root of context hierarchy
++2022-01-05 01:47:45.985  WARN 26728 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
++2022-01-05 01:47:46.106  INFO 26728 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
++2022-01-05 01:47:46.351  INFO 26728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
++2022-01-05 01:47:46.367  INFO 26728 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
++2022-01-05 01:47:46.367  INFO 26728 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
++2022-01-05 01:47:46.370  INFO 26728 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [G:\development tool\JDK\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;G:\development tool\JDK\jdk1.8.0_131\bin;C:\Program Files\Common Files\Oracle\Java\javapath;E:\vpn\;E:\python\Scripts\;E:\python\;G:\sdk\sdk\platform-tools;G:\sdk\sdk\tools;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files (x86)\Common Files\microsoft shared\TigerKin;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Common Files\microsoft shared\TigerKin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\microsoft shared\TigerKin;G:\development tool\Git\cmd;G:\development tool\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;G:\development tool\MySQL\MySQL Server 8.0\bin;E:\Python\Python38-32\Scripts\;E:\Python\Python38-32\;C:\Users\曹吉星\AppData\Local\Microsoft\WindowsApps;E:\Fiddler;C:\Users\曹吉星\AppData\Local\Microsoft\WindowsApps;G:\development tool\PyCharm 2021.3\bin;;;.]
++2022-01-05 01:47:46.445  INFO 26728 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
++2022-01-05 01:47:46.445  INFO 26728 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 718 ms
++2022-01-05 01:47:46.545  INFO 26728 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
++2022-01-05 01:47:46.548  INFO 26728 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
++2022-01-05 01:47:46.548  INFO 26728 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
++2022-01-05 01:47:46.548  INFO 26728 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
++2022-01-05 01:47:46.548  INFO 26728 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
++2022-01-05 01:47:46.880  INFO 26728 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3d285d7e: startup date [Wed Jan 05 01:47:45 CST 2022]; root of context hierarchy
++2022-01-05 01:47:46.913  INFO 26728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/addUser],methods=[POST]}" onto public int com.course.controller.Demo.addUser(com.course.model.User)
++2022-01-05 01:47:46.913  INFO 26728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/deleteUser],methods=[GET]}" onto public int com.course.controller.Demo.delUser(int)
++2022-01-05 01:47:46.913  INFO 26728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/getUserCount],methods=[GET]}" onto public int com.course.controller.Demo.getUserCount()
++2022-01-05 01:47:46.913  INFO 26728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/updateUser],methods=[POST]}" onto public int com.course.controller.Demo.updateUser(com.course.model.User)
++2022-01-05 01:47:46.915  INFO 26728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
++2022-01-05 01:47:46.916  INFO 26728 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
++2022-01-05 01:47:46.936  INFO 26728 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
++2022-01-05 01:47:46.936  INFO 26728 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
++2022-01-05 01:47:46.997  INFO 26728 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
++2022-01-05 01:47:47.100  INFO 26728 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
++2022-01-05 01:47:47.101  INFO 26728 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
++2022-01-05 01:47:47.103  INFO 26728 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
++2022-01-05 01:47:47.127  INFO 26728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
++2022-01-05 01:47:47.129  INFO 26728 --- [main] com.course.Application                   : Started Application in 1.656 seconds (JVM running for 2.319)
++2022-01-05 01:47:54.075  INFO 26728 --- [Thread-5] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3d285d7e: startup date [Wed Jan 05 01:47:45 CST 2022]; root of context hierarchy
++2022-01-05 01:47:54.077  INFO 26728 --- [Thread-5] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
++2022-01-05 01:47:54.078  INFO 26728 --- [Thread-5] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+Index: Chapter11/target/classes/application.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>server:\r\n  port: 8888\r\n\r\nlogging:\r\n  path: logs\r\n  file: mylog.log\r\n\r\nspring:\r\n  application:\r\n    name: myTest\r\n    datasource:\r\n      driver-class-name: com.mysql.jdbc.Driver\r\n      url: jdbc:mysql://192.168.2.103:3306/course\r\n      username: root\r\n      password: 123456\r\n\r\nmybatis:\r\n  type-aliases-package: com.course.model\r\n  mapper-locations:\r\n    - mapper/*
+===================================================================
+diff --git a/Chapter11/target/classes/application.yml b/Chapter11/target/classes/application.yml
+--- a/Chapter11/target/classes/application.yml	
++++ b/Chapter11/target/classes/application.yml	
+@@ -5,16 +5,17 @@
+   path: logs
+   file: mylog.log
+ 
++
+ spring:
+   application:
+-    name: myTest
+-    datasource:
+-      driver-class-name: com.mysql.jdbc.Driver
+-      url: jdbc:mysql://192.168.2.103:3306/course
+-      username: root
+-      password: 123456
++    name: report
++  datasource:
++    driver-class-name: com.mysql.jdbc.Driver
++    url: jdbc:mysql://192.168.2.103:3306/course?useSSL=false
++    username: root
++    password: 123456
+ 
+ mybatis:
+   type-aliases-package: com.course.model
+   mapper-locations:
+-    - mapper/*
+\ No newline at end of file
++    - mapper/*
+Index: Chapter11/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\r\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n    <parent>\r\n        <artifactId>AutoTest</artifactId>\r\n        <groupId>groupId</groupId>\r\n        <version>1.0-SNAPSHOT</version>\r\n    </parent>\r\n    <modelVersion>4.0.0</modelVersion>\r\n\r\n    <artifactId>Chapter11</artifactId>\r\n\r\n    <properties>\r\n        <maven.compiler.source>8</maven.compiler.source>\r\n        <maven.compiler.target>8</maven.compiler.target>\r\n    </properties>\r\n    <dependencies>\r\n        <dependency>\r\n            <groupId>org.springframework.boot</groupId>\r\n            <artifactId>spring-boot-starter-web</artifactId>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>io.springfox</groupId>\r\n            <artifactId>springfox-swagger-ui</artifactId>\r\n            <version>2.6.1</version>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>io.springfox</groupId>\r\n            <artifactId>springfox-swagger2</artifactId>\r\n            <version>2.6.1</version>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>org.projectlombok</groupId>\r\n            <artifactId>lombok</artifactId>\r\n            <version>1.16.14</version>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>com.alibaba</groupId>\r\n            <artifactId>fastjson</artifactId>\r\n            <version>1.2.38</version>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>mysql</groupId>\r\n            <artifactId>mysql-connector-java</artifactId>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>org.mybatis.spring.boot</groupId>\r\n            <artifactId>mybatis-spring-boot-starter</artifactId>\r\n            <version>1.3.0</version>\r\n        </dependency>\r\n\r\n\r\n    </dependencies>\r\n</project>
+===================================================================
+diff --git a/Chapter11/pom.xml b/Chapter11/pom.xml
+--- a/Chapter11/pom.xml	
++++ b/Chapter11/pom.xml	
+@@ -20,11 +20,13 @@
+             <groupId>org.springframework.boot</groupId>
+             <artifactId>spring-boot-starter-web</artifactId>
+         </dependency>
++
+         <dependency>
+             <groupId>io.springfox</groupId>
+             <artifactId>springfox-swagger-ui</artifactId>
+             <version>2.6.1</version>
+         </dependency>
++
+         <dependency>
+             <groupId>io.springfox</groupId>
+             <artifactId>springfox-swagger2</artifactId>
+@@ -33,7 +35,7 @@
+         <dependency>
+             <groupId>org.projectlombok</groupId>
+             <artifactId>lombok</artifactId>
+-            <version>1.16.14</version>
++            <version>1.16.10</version>
+         </dependency>
+         <dependency>
+             <groupId>com.alibaba</groupId>
+@@ -43,13 +45,17 @@
+         <dependency>
+             <groupId>mysql</groupId>
+             <artifactId>mysql-connector-java</artifactId>
++            <version>5.1.46</version>
+         </dependency>
+         <dependency>
+             <groupId>org.mybatis.spring.boot</groupId>
+             <artifactId>mybatis-spring-boot-starter</artifactId>
+             <version>1.3.0</version>
+         </dependency>
+-
+-
++        <dependency>
++            <groupId>log4j</groupId>
++            <artifactId>log4j</artifactId>
++            <version>1.2.16</version>
++        </dependency>
+     </dependencies>
+ </project>
+\ No newline at end of file
+Index: Chapter11/src/main/java/com/course/controller/Demo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.course.controller;\r\n\r\nimport io.swagger.annotations.Api;\r\nimport io.swagger.annotations.ApiOperation;\r\nimport lombok.extern.log4j.Log4j;\r\nimport org.mybatis.spring.SqlSessionTemplate;\r\nimport org.springframework.beans.factory.annotation.Autowired;\r\nimport org.springframework.web.bind.annotation.RequestMapping;\r\nimport org.springframework.web.bind.annotation.RequestMethod;\r\nimport org.springframework.web.bind.annotation.RestController;\r\n\r\n/**\r\n * @author shengfulankuli\r\n * @create 2022-01-01 21:57\r\n */\r\n@Log4j\r\n@RestController\r\n@Api(value=\"v1\",description = \"这是我的第一个版本的demo\")\r\n@RequestMapping(\"v1\")\r\npublic class Demo {\r\n\r\n    //首先获取一个执行sql语句的对象\r\n\r\n    @Autowired\r\n    private SqlSessionTemplate template;\r\n    @RequestMapping(value=\"/getUserList\",method= RequestMethod.GET)\r\n    @ApiOperation(value=\"可以获取到用户数\",httpMethod = =\"GET\")\r\n    public int getUserList(){\r\n        template.selectOne(\"\");\r\n    }\r\n\r\n\r\n}\r\n
+===================================================================
+diff --git a/Chapter11/src/main/java/com/course/controller/Demo.java b/Chapter11/src/main/java/com/course/controller/Demo.java
+--- a/Chapter11/src/main/java/com/course/controller/Demo.java	
++++ b/Chapter11/src/main/java/com/course/controller/Demo.java	
+@@ -1,21 +1,17 @@
+ package com.course.controller;
+ 
++
++import com.course.model.User;
+ import io.swagger.annotations.Api;
+ import io.swagger.annotations.ApiOperation;
+ import lombok.extern.log4j.Log4j;
+ import org.mybatis.spring.SqlSessionTemplate;
+ import org.springframework.beans.factory.annotation.Autowired;
+-import org.springframework.web.bind.annotation.RequestMapping;
+-import org.springframework.web.bind.annotation.RequestMethod;
+-import org.springframework.web.bind.annotation.RestController;
++import org.springframework.web.bind.annotation.*;
+ 
+-/**
+- * @author shengfulankuli
+- * @create 2022-01-01 21:57
+- */
+ @Log4j
+ @RestController
+-@Api(value="v1",description = "这是我的第一个版本的demo")
++@Api(value = "v1",description = "这是我的第一个版本的demo")
+ @RequestMapping("v1")
+ public class Demo {
+ 
+@@ -23,11 +19,29 @@
+ 
+     @Autowired
+     private SqlSessionTemplate template;
+-    @RequestMapping(value="/getUserList",method= RequestMethod.GET)
+-    @ApiOperation(value="可以获取到用户数",httpMethod = ="GET")
+-    public int getUserList(){
+-        template.selectOne("");
++
++    @RequestMapping(value = "/getUserCount",method = RequestMethod.GET)
++    @ApiOperation(value = "可以获取到用户数",httpMethod = "GET")
++    public int getUserCount(){
++        return template.selectOne("getUserCount");
++    }
++
++    @RequestMapping(value = "/addUser",method = RequestMethod.POST)
++    public int addUser(@RequestBody User user){
++        int result = template.insert("addUser",user);
++        return result;
++    }
++
++    @RequestMapping(value = "/updateUser",method = RequestMethod.POST)
++    public int updateUser(@RequestBody User user){
++
++        return  template.update("updateUser",user);
++
+     }
+ 
++    @RequestMapping(value = "/deleteUser",method = RequestMethod.GET)
++    public int delUser(@RequestParam int id){
++        return template.delete("deleteUser",id);
++    }
+ 
+ }
+Index: Chapter11/src/main/java/com/course/Application.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.course;\r\nimport org.springframework.boot.SpringApplication;\r\nimport org.springframework.boot.autoconfigure.SpringBootApplication;\r\nimport org.springframework.context.ConfigurableApplicationContext;\r\nimport org.springframework.scheduling.annotation.EnableScheduling;\r\n\r\nimport javax.annotation.PreDestroy;\r\n/**\r\n * @author shengfulankuli\r\n * @create 2022-01-01 21:57\r\n */\r\n@EnableScheduling\r\n@SpringBootApplication\r\npublic class Application {\r\n    private static ConfigurableApplicationContext context;\r\n\r\n    public static void main(String[] args) {\r\n        Application.context= SpringApplication.run(Application.class,args);\r\n    }\r\n    @PreDestroy\r\n    public void close(){\r\n        Application.context.close();\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/Chapter11/src/main/java/com/course/Application.java b/Chapter11/src/main/java/com/course/Application.java
+--- a/Chapter11/src/main/java/com/course/Application.java	
++++ b/Chapter11/src/main/java/com/course/Application.java	
+@@ -1,24 +1,27 @@
+ package com.course;
++
++
+ import org.springframework.boot.SpringApplication;
+ import org.springframework.boot.autoconfigure.SpringBootApplication;
++import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+ import org.springframework.context.ConfigurableApplicationContext;
+ import org.springframework.scheduling.annotation.EnableScheduling;
+ 
+ import javax.annotation.PreDestroy;
+-/**
+- * @author shengfulankuli
+- * @create 2022-01-01 21:57
+- */
++
+ @EnableScheduling
+ @SpringBootApplication
+ public class Application {
+-    private static ConfigurableApplicationContext context;
++
++    private  static ConfigurableApplicationContext context;
+ 
+     public static void main(String[] args) {
+-        Application.context= SpringApplication.run(Application.class,args);
++        Application.context = SpringApplication.run(Application.class,args);
+     }
++
+     @PreDestroy
+     public void close(){
+         Application.context.close();
+     }
++
+ }
